@@ -1,0 +1,1 @@
+import strip from 'strip-comments';

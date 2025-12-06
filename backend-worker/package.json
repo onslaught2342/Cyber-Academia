@@ -1,0 +1,23 @@
+{
+  "name": "backend-worker",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "start": "wrangler dev",
+    "test": "vitest",
+    "cf-typegen": "wrangler types"
+  },
+  "devDependencies": {
+    "@cloudflare/vitest-pool-workers": "^0.8.71",
+    "typescript": "^5.9.3",
+    "vitest": "~3.2.4",
+    "wrangler": "^4.53.0"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "fflate": "^0.8.2",
+    "jsonwebtoken": "^9.0.3"
+  }
+}
