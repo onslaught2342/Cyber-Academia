@@ -79,7 +79,7 @@ interface EmailResponse {
 
 // ============ CONSTANTS ============
 
-const ALLOWED_ORIGINS = ['https://cyber_academia.onslaught2342.qzz.io'];
+const ALLOWED_ORIGINS = ['https://cyber-academia.onslaught2342.qzz.io'];
 
 const TOKEN_EXPIRY = 60 * 60 * 24; // 24 hours
 const TOKEN_REFRESH_THRESHOLD = 60 * 60; // 1 hour before expiry
