@@ -25,4 +25,4 @@ dist-ssr
 
 # my files
 GEMINI.md 
-wrangler.jsonc
+backend-worker/wrangler.jsonc

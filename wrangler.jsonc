@@ -1,0 +1,32 @@
+{
+  "name": "cyber-academia",
+  "type": "typescript",
+  "env": {
+    "development": {
+      "CUSTOM_VAR": "http://localhost:8787",
+    },
+    "production": {
+      "VITE_API_URL": "https://cyber_academia_backend.onslaught2342.qzz.io",
+    },
+  },
+
+  "site": {
+    "bucket": "./dist",
+    "entry-point": "./dist",
+  },
+
+  "build": {
+    "command": "pnpm run build",
+    "cwd": ".",
+    "watch_dir": "./src",
+  },
+
+  "routes": ["cyber_academia.onslaught2342.qzz.io"],
+
+  "custom_domains": ["cyber_academia.onslaught2342.qzz.io"],
+  "analytics": {
+    "enabled": true,
+  },
+
+  "ignore": ["node_modules", ".git", ".vscode"],
+}
