@@ -1,9 +1,6 @@
 import { strToU8, strFromU8, compressSync, decompressSync } from 'fflate';
 import { UserData } from '@/types';
-
-const API_BASE_URL =
-  import.meta.env.VITE_API_URL || 'https://cyber-academia-backend.onslaught2342.workers.dev';
-
+const API_BASE_URL = import.meta.env.VITE_API_URL || '0.0.0.0';
 let authToken: string | null = null;
 
 export function setAuthToken(token: string | null) {

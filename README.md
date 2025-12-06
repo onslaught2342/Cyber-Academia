@@ -8,7 +8,7 @@
   </p>
   <p align="center">
     <a href="#"><img src="https://img.shields.io/badge/build-passing-brightgreen" alt="Build Status"></a>
-    <a href="#"><img src="https://img.shields.io/badge/license-MIT-blue" alt="License"></a>
+    <a href="#?tab=License-1-ov-file"><img src="https://img.shields.io/badge/License-CC%20BY--NC%204.0-blue.svg" alt="License"></a>
     <a href="#"><img src="https://img.shields.io/badge/React-18-blue.svg" alt="React"></a>
     <a href="#"><img src="https://img.shields.io/badge/Vite-5-yellow.svg" alt="Vite"></a>
     <a href="#"><img src="https://img.shields.io/badge/TypeScript-5-blue.svg" alt="TypeScript"></a>
